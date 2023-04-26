@@ -3,7 +3,7 @@
 	"Author": "Elgato Systems",
 	"CodePath": "app.html",
 	"Description": "Example description",
-	"Name": "Stream Deck Template",
+	"Name": "Steam plugin",
 	"Icon": "actions/template/assets/action",
 	"URL": "https://www.elgato.com/en/gaming/stream-deck",
 	"Version": "1.0.2",
@@ -20,13 +20,16 @@
 			"MinimumVersion": "10"
 		}
 	],
-	"Category": "Template Plugin",
+	"Category": "Steam",
 	"CategoryIcon": "actions/template/assets/actionimage",
 	"Actions": [
 		{
 			"Icon": "actions/template/assets/actionimage",
 			"Name": "Example Action",
-			"Controllers": ["Keypad", "Encoder"],
+			"Controllers": [
+				"Keypad",
+				"Encoder"
+			],
 			"Encoder": {
 				"layout": "$B1",
 				"TriggerDescription": {
@@ -42,7 +45,7 @@
 				}
 			],
 			"Tooltip": "This is an example tooltip",
-			"UUID": "com.elgato.template.action",
+			"UUID": "com.jvautier.steam.action",
 			"PropertyInspectorPath": "actions/template/property-inspector/inspector.html"
 		}
 	]
